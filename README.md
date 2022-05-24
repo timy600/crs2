@@ -13,7 +13,7 @@ Bueno, con toda esa incertidumbre constante, cambiando los CRUDs cada dia, no he
 
 ## Estructura
 ```
-/crs
+/crs (Django App)
   /apis
       /availability
       /hotels
@@ -24,6 +24,11 @@ Bueno, con toda esa incertidumbre constante, cambiando los CRUDs cada dia, no he
   /migrations
   urls.py
   models.py
+/roiback (Django Project)
+  urls.py
+  settings.py
+db.sqlite3
+manage.py
 ```
 ## Lanzar
 Dudo que merece la pena probarlo.
