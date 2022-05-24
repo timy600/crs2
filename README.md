@@ -12,19 +12,19 @@ Aun no se cual era la logica del arbol de disponibilidad. Leyendo el ejemplo:
 Bueno, con toda esa incertidumbre constante, cambiando los CRUDs cada dia, no he sido capaz de ir muy lejos. Nada de Swagger, de DTOs, de Test Unit, factorizar la gestion de errores... Y sobretodo, el Availability y los modelos no deberian corresponder a lo que se esperaba.
 
 ## Estructura
-- roiback/
--- crs/
---- apis/
----- availability/
----- hotels/
----- inventories/
----- rates/
----- rooms/
----- utils.py
---- migrations/
---- urls.py
---- models.py
-
+```
+/crs
+  /apis
+      /availability
+      /hotels
+      /inventories
+      /rates
+      /rooms
+      utils.py
+  /migrations
+  urls.py
+  models.py
+```
 ## Lanzar
 Dudo que merece la pena probarlo.
 Pero por si acaso. He usado un virtual env, pero fuera de Django no creo que hace falta descargar otra libreria.
